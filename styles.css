@@ -9,7 +9,6 @@ p {
     line-height: 2;
 }
 
-
 hr {
     border: dotted grey 10px;
     border-bottom: none;
@@ -17,9 +16,9 @@ hr {
     margin: 100px auto;
 }
 
-h1 {
+.h1-text {
     font-size: 6rem;
-    margin: 50px auto 0 auto;
+    margin: 10% auto;
     font-family: 'Sacramento', sans-serif;
     color: #66BFBF;
 }
@@ -39,14 +38,7 @@ h3 {
 .top-container {
     background-color: #EAF6F6;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-
-.profile-pic {
-    position: absolute;
-    left: 25%;
+    padding: 1% 30%;
 }
 
 .profile {
@@ -55,19 +47,12 @@ h3 {
 }
 
 .profile-pic {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 
 .intro {
     width: 30%;
     margin: auto;
-}
-
-
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
 }
 
 .html {
@@ -76,19 +61,8 @@ h3 {
     margin-right: 20px;
 }
 
-.hacker {
-    width: 15%;
-    float: right;
-    margin-left: 20px;
-}
-
 .portfolio-title {
     margin-bottom: 2rem;
-}
-
-.portfolio-box {
-    border:solid;
-    display:inline;
 }
 
 .contact-me {
